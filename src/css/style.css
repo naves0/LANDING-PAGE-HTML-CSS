@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container p {
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+
+.container h1, h2, h3, h4 {
+    color: hsl(210, 10%, 33%);
+    margin: 15px 0;
+}
+
+.itens-centrais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 619px;
+    margin: 70px auto 30px auto;
+    text-align: center;
+}
+
+.itens-centrais h1{
+    font-size: 39px;
+    line-height: 60px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 30px 0;
+}
+
+.botoes {
+    display: flex;
+    margin: 40px 0 60px 0;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.btn-ios{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.btn-mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.conjunto-informacoes{
+    display: flex;
+    margin: 50px 0;
+}
+
+.informacoes{
+    width: 350px;
+    margin: 80px 90px 0;
+    line-height: 26px;
+}
+
+.informacoes p{
+    font-size: 16px;
+}
+
+.imagem-computador{
+    width: 600px;
+    height: 500px;
+}
+
+.imagem-dispositivos{
+    width: 900px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.funcionalidades{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 1000px;
+}
+
+.icones {
+    width: 35px;
+    height: 30px;
+}
+
+.tipo-funcionalidade{
+    width: 350px;
+}
+
+.empresas {
+    display: flex;
+    justify-content: space-between;
+    width: 975px;
+    margin: 100px 0;
+}
+
+.logo-empresa{
+    width: 120px;
+    height: 40px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    background-color: hsl(180, 7%, 94%);
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-left: -100px;
+    width: 435px;
+    height: 90px;
+}
+
+.link-rodape a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+.link-rodape{
+    display: block;
+    width: 105px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.link-rodape a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.imagem-rodape{
+    width: 60px;
+    height: 60px;
+}
+
+.icon-rede-social{
+    margin-right: 20px;
+}
+svg:hover path {
+    fill: hsl(171, 66%, 44%);
+  }

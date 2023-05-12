@@ -1,0 +1,88 @@
+@media (max-width: 375px){
+    body{
+        background-image: url(../images/bg-header-mobile.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .container{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+    .itens-centrais{
+        width: 80vw;
+    }
+    .botoes{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-right: 0;
+    }
+    .btn-ios{
+        margin-bottom: 15px;
+    }
+    .conjunto-informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+    .informacoes{
+        width: 80vw;
+        margin: 0;
+    }
+    .imagem-computador{
+        width: 200px;
+        height: 150px;
+
+    }
+    .imagem-dispositivos{
+        width: 200px;
+        height: 150px;
+    }
+    .funcionalidades{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        align-items: center;
+    }
+    .tipo-funcionalidade{
+        width: 80vw;
+    }
+    .icones{
+        margin-top: 20px;
+    }
+    .empresas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+    .logo-empresa{
+        margin: 20px 0;
+    }
+    footer{
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+    }
+    .imagem-rodape{
+        margin-top: 40px;
+    }
+    .links{
+        width: 70vw;
+        height: auto;
+        margin: 20px 0; 
+    }
+    .link-rodape{
+        width: 100vw;
+        margin: 10px 0;
+    }
+    .redes-sociais{
+        margin-bottom: 30px;
+    }
+}
